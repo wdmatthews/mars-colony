@@ -21,6 +21,10 @@ export default {
       },
     ],
   },
+  
+  router: {
+    base: '/mars-colony/'
+  },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
