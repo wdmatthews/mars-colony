@@ -3,7 +3,7 @@ using UnityEngine;
 namespace MarsColony
 {
     [System.Serializable]
-    public struct ColonyTile
+    public class ColonyTile
     {
         public string Name;
         public Vector2Int Position;

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1efdd46687388488bbe3e9015f60cda1, type: 3}
+  m_Name: Large Living Quarters
+  m_EditorClassIdentifier: 
+  NameOnHUD: 
+  Description: A large living space for a few more people.
+  Tile: {fileID: 11400000, guid: c692293ed7c954fed8dbf520f66b07da, type: 2}
+  Type: 2
+  Costs:
+  - Resource: 0
+    Amount: 20
+  - Resource: 1
+    Amount: 20
+  - Resource: 2
+    Amount: 8
+  CanBeReplacedBy:
+  - {fileID: 11400000, guid: 18ba79fe56756435a82e86c2c0de1bdb, type: 2}
+  Resource: 3
+  Capacity: 5
+  Rate: 0

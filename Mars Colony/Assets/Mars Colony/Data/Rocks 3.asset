@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1efdd46687388488bbe3e9015f60cda1, type: 3}
+  m_Name: Rocks 3
+  m_EditorClassIdentifier: 
+  NameOnHUD: Rocks
+  Description: Land perfect for construction, after the rocks are removed.
+  Tile: {fileID: 11400000, guid: 71715f7f56245479ebf140a4afd8969b, type: 2}
+  Type: 0
+  Costs: []
+  CanBeReplacedBy:
+  - {fileID: 11400000, guid: 497af4c09cb384c198aad1bff609cef2, type: 2}
+  - {fileID: 11400000, guid: 94a3bb74e2bcb4842b994754f24c0a59, type: 2}
+  - {fileID: 11400000, guid: 13257fbb73df247c0abb1fc44550655d, type: 2}
+  - {fileID: 11400000, guid: bb479246f064140cb852ad2da7b6be0f, type: 2}
+  - {fileID: 11400000, guid: bcb5c84c4905b41c7b590a5427dde348, type: 2}
+  - {fileID: 11400000, guid: c04f0761d6d974224b65d55ffdbec7d7, type: 2}
+  Resource: 0
+  Capacity: 0
+  Rate: 0

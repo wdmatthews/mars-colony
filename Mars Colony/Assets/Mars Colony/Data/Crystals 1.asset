@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1efdd46687388488bbe3e9015f60cda1, type: 3}
+  m_Name: Crystals 1
+  m_EditorClassIdentifier: 
+  NameOnHUD: Crystals
+  Description: A source for collecting crystals.
+  Tile: {fileID: 11400000, guid: da3c2307ef1c4447f9c0c139bdf0a040, type: 2}
+  Type: 1
+  Costs: []
+  CanBeReplacedBy:
+  - {fileID: 11400000, guid: 04f68ef0021444614818778e8ad52a91, type: 2}
+  Resource: 0
+  Capacity: 0
+  GenerationRate: 0

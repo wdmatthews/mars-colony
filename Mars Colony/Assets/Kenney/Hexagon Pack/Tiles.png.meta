@@ -31,10 +31,10 @@ TextureImporter:
     second: Crystals 2
   - first:
       213: 3825752689756085014
-    second: Power Plant
+    second: Crystal Storage
   - first:
       213: 7477827516038983822
-    second: Crystal Silo
+    second: Wood Storage
   - first:
       213: 3930821917377472818
     second: Mill
@@ -367,7 +367,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Power Plant
+      name: Crystal Storage
       rect:
         serializedVersion: 2
         x: 20
@@ -388,7 +388,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Crystal Silo
+      name: Wood Storage
       rect:
         serializedVersion: 2
         x: 280

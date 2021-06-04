@@ -12,5 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1efdd46687388488bbe3e9015f60cda1, type: 3}
   m_Name: Headquarters
   m_EditorClassIdentifier: 
+  NameOnHUD: 
+  Description: The colony's headquarters, where important meetings occur and some
+    resources are stored.
   Tile: {fileID: 11400000, guid: 07cbf4b29b29a472a8663915dfb15939, type: 2}
-  Type: 6
+  Type: 4
+  Costs: []
+  CanBeReplacedBy: []
+  Resource: 0
+  Capacity: 0
+  Rate: 0

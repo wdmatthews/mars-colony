@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1efdd46687388488bbe3e9015f60cda1, type: 3}
+  m_Name: Factory
+  m_EditorClassIdentifier: 
+  NameOnHUD: 
+  Description: Produces crystals.
+  Tile: {fileID: 11400000, guid: bbe740174c8bb452ab92171d10aa07d4, type: 2}
+  Type: 3
+  Costs:
+  - Resource: 0
+    Amount: 5
+  - Resource: 2
+    Amount: 1
+  CanBeReplacedBy:
+  - {fileID: 11400000, guid: 06420efb549f74d4ea1e416ec28dc7fb, type: 2}
+  Resource: 1
+  Capacity: 0
+  Rate: 2

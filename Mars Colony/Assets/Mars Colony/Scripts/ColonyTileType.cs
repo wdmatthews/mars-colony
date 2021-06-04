@@ -6,8 +6,6 @@ namespace MarsColony
         Resource,
         Storage,
         Production,
-        Shipment,
-        Residence,
         Headquarters,
     }
 }

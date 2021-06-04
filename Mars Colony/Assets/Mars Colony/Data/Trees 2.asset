@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1efdd46687388488bbe3e9015f60cda1, type: 3}
+  m_Name: Trees 2
+  m_EditorClassIdentifier: 
+  NameOnHUD: Trees
+  Description: A source for collecting wood.
+  Tile: {fileID: 11400000, guid: dd0cc267a06464e64a7cd45bdb6bda8c, type: 2}
+  Type: 1
+  Costs: []
+  CanBeReplacedBy:
+  - {fileID: 11400000, guid: 060662539c8e443168cf11f858ef97fb, type: 2}
+  Resource: 0
+  Capacity: 0
+  GenerationRate: 0
