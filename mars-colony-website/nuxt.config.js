@@ -17,7 +17,7 @@ export default {
     ],
     script: [
       {
-        src: '/build.loader.js',
+        src: '/mars-colony/build.loader.js',
       },
     ],
   },
