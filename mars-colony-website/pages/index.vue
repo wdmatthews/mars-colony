@@ -24,9 +24,9 @@ export default {
     this.$refs.unityCanvas.style.height = `${window.innerHeight}px`;
     
     this.unity = await createUnityInstance(this.$refs.unityCanvas, {
-      dataUrl: '/build.data',
-      frameworkUrl: '/build.framework.js',
-      codeUrl: '/build.wasm',
+      dataUrl: '/mars-colony/build.data',
+      frameworkUrl: '/mars-colony/build.framework.js',
+      codeUrl: '/mars-colony/build.wasm',
       streamingAssetsUrl: 'StreamingAssets"',
       companyName: 'Wesley Matthews',
       productName: 'Mars Colony',
